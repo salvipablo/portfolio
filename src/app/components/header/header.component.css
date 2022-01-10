@@ -10,7 +10,7 @@
     border-radius: 2em 2em 0 0;
 }
 
-.containerHeader--images_Fondo {
+.containerHeader--images_back {
     width: 100%;
     height: 250px;
     border-radius: 2em 2em 0 0;
@@ -18,7 +18,7 @@
     z-index: 1;
 }
 
-.containerHeader--images_Persona {
+.containerHeader--images_person {
     width: 140px;
     height: 150px;
     border-radius: 50%;
@@ -28,7 +28,7 @@
     z-index: 10;
 }
 
-.containerHeader--images_lapiz {
+.containerHeader--images_pencil {
     position: absolute;
     left: 0;
     margin: 18em 0 0 12em;

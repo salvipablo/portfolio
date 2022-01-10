@@ -1,0 +1,29 @@
+.persInf {
+    height: 400px;
+    border: 2px solid #cac3c3;
+    border-radius: 2em;
+    padding: 0 1em 0 1em;
+}
+
+.persInf--title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.persInf--title_title {
+    display: inline;
+}
+
+.persInf--content--item {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 1em 0 1em 0;
+}
+
+.persInf--content--item_text {
+    display: inline;
+    margin-left: 1em;
+    margin-bottom: 0;
+}
