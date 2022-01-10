@@ -5,24 +5,14 @@
                 <h2 class="education--title_title">Educacion</h2>
                 <img class="education--title_pencil pencil" src="./assets/images/pencil.png" alt="lapiz">
             </div>
-            <div class="education--content">
+            <div class="education--content" *ngFor="let educationItem of dataPortfolio">
                 <div>
-                    <img class="education--content--img" src="./assets/images/ETN1LR.jpg" alt="college">
+                    <img class="education--content--img" src="{{educationItem.imageIcon}}" alt="college">
                 </div>
                 <div class="education--content--text">
-                    <h3>Escuela Técnica N°1 - "Luciano Reyes"</h3>
-                    <p>Campana - Secundario</p>
-                    <p>Titulo obtenido: <span>"Tecnico Personal y profesional en Informática"</span></p>
-                </div>
-            </div>
-            <div class="education--content">
-                <div>
-                    <img class="education--content--img" src="./assets/images/ccna.png" alt="college">
-                </div>
-                <div class="education--content--text">
-                    <h3>Universisdad Tecnologica Nacional</h3>
-                    <p>CCNAI - Completo</p>
-                    <p>Titulo obtenido: <span>"Diseño, creacion y mantenimiento de redes informaticas"</span></p>
+                    <h3>{{educationItem.educationalEntity}}</h3>
+                    <p>{{educationItem.locationAndType}}</p>
+                    <p>Titulo obtenido: <span>"{{educationItem.obtainedTitle}}"</span></p>
                 </div>
             </div>
         </div>

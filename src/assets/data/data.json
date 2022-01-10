@@ -13,6 +13,19 @@
         "correo": "salvipablo@gmail.com",
         "telefonos": "3489 536210 / 3489 424368"
     },
+    "education": [{
+            "educationalEntity": "Escuela Técnica N°1 - 'Luciano Reyes'",
+            "locationAndType": "Campana - Secundario",
+            "obtainedTitle": "'Tecnico Personal y profesional en Informática'",
+            "imageIcon": "./assets/images/ETN1LR.jpg"
+        },
+        {
+            "educationalEntity": "Universidad Tecnologica Nacional",
+            "locationAndType": "Campana - CCNAI (Completo)",
+            "obtainedTitle": "'Diseño, creacion y mantenimiento de redes informaticas'",
+            "imageIcon": "./assets/images/ccna.png"
+        }
+    ],
     "experience": [{
             "league": "España.",
             "equipment": "Barcelona."
