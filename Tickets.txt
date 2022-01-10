@@ -9,3 +9,4 @@
 
 -> Tickets de arreglos/reparacion.
     R#001 - Agregar en educacion datos provenientes del JSON.
+    R#002 - Arreglar errores que surgen en la consola y eliminar console.log.

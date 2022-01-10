@@ -10,7 +10,7 @@ import { DataDbService } from 'src/app/services/data-db.service';
 export class HeaderComponent implements OnInit {
   dataPortfolio: any;
 
-  constructor(private dataPort: DataDbService) { }
+  constructor(private dataPort: DataDbService) { this.dataPortfolio={}; }
 
   ngOnInit(): void {
     this.dataPort.obtainData().subscribe(data => {

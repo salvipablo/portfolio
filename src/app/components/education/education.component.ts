@@ -10,12 +10,11 @@ import { DataDbService } from 'src/app/services/data-db.service';
 export class EducationComponent implements OnInit {
   dataPortfolio: any;
 
-  constructor(private dataPort: DataDbService) { }
+  constructor(private dataPort: DataDbService) { this.dataPortfolio = []; }
 
   ngOnInit(): void {
     this.dataPort.obtainData().subscribe(data => {
       this.dataPortfolio = data.education;
-      console.log(this.dataPortfolio);
     })
   }
 
