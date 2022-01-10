@@ -1,0 +1,31 @@
+.education {
+    height: 350px;
+    border: 2px solid #cac3c3;
+    border-radius: 2em;
+    padding: 0 1em 0 1em;
+}
+
+.education--title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.education--title_title {
+    display: inline;
+}
+
+.education--content {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 1em 0 1em 0;
+}
+
+.education--content--img {
+    width: 100px;
+}
+
+.education--content--text {
+    margin-left: 1.5em;
+}

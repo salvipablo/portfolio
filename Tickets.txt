@@ -2,3 +2,4 @@ T#001 - Generar la base de proyecto y dejar aplicado Bootstrap.
 T#002 - Realizar el header, con aspecto final.
 T#003 - Realizar la seccion informacion personal basica.
 T#004 - Implementar la lectura de JSON para informacion.
+T#005 - Realizar seccion de Educacion.
