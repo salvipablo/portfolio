@@ -1,0 +1,29 @@
+{
+    "name": "Pablo Salvi",
+    "profession": "Tecnico en informática",
+    "placeOfBirth": "Buenos Aires - Bahia blanca",
+    "personalInformation": {
+        "estadoCivil": "Casado",
+        "nacionalidad": "Argentino",
+        "edad": 36,
+        "dni": "31.884.267",
+        "domicilio": "Iriart 448 - Campana",
+        "codigoPostal": 2804,
+        "cuil": "20-31884267-2",
+        "correo": "salvipablo@gmail.com",
+        "telefonos": "3489 536210 / 3489 424368"
+    },
+    "experience": [{
+            "league": "España.",
+            "equipment": "Barcelona."
+        },
+        {
+            "league": "Francia.",
+            "equipment": "PSG."
+        },
+        {
+            "league": "Mundial.",
+            "equipment": "Seleccion Argentina."
+        }
+    ]
+}
