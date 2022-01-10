@@ -6,6 +6,7 @@
     T#003 - Realizar la seccion informacion personal basica.
     T#004 - Implementar la lectura de JSON para informacion.
     T#005 - Realizar seccion de Educacion.
+    T#006 - Mejoras aspecto grafico.
 
 -> Tickets de arreglos/reparacion.
     R#001 - Agregar en educacion datos provenientes del JSON.

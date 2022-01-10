@@ -1,5 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 
+body {
+    /* background: rgb(169, 169, 194); */
+    /* background: linear-gradient(180deg, rgba(169, 169, 194, 1) 0%, rgba(169, 169, 194, 1) 0%, rgba(22, 133, 154, 1) 100%); */
+    background: rgb(190, 190, 210);
+    background: linear-gradient(180deg, rgba(190, 190, 210, 1) 0%, rgba(161, 82, 69, 1) 100%);
+    color: black;
+}
+
 .pencil {
     width: 20px;
     height: 20px;
