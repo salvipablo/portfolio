@@ -1,0 +1,39 @@
+.containerHeader {
+    height: 530px;
+    border: 2px solid #cac3c3;
+    border-radius: 2em;
+}
+
+.containerHeader--images {
+    height: 310px;
+    background-repeat: no-repeat;
+    border-radius: 2em 2em 0 0;
+}
+
+.containerHeader--images_Fondo {
+    width: 100%;
+    height: 250px;
+    border-radius: 2em 2em 0 0;
+    position: relative;
+    z-index: 1;
+}
+
+.containerHeader--images_Persona {
+    width: 140px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10em 0 0 4em;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+}
+
+.containerHeader--images_lapiz {
+    position: absolute;
+    left: 0;
+    margin: 18em 0 0 12em;
+}
+
+.containerHeader--content {
+    margin: 0.8em 0 0 1em;
+}
